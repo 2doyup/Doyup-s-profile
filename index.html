@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이도엽</title>
+    <style>
+        .container{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-rows: 30px 170px 170px 105px 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    background: lightgray;
+    text-align: center;
+    border-radius: 10px;
+}
+.item{background: navajowhite;border: 2px solid black;}
+.item:nth-child(1){height: 170px;border-radius: 10px;grid-row: 2;}
+.item:nth-child(2){grid-row: 1/4;grid-column: 1;height: 390px;border-radius: 10px;background: beige;}
+.item:nth-child(3){height: 170px;border-radius: 10px;grid-row: 3;}
+.item:nth-child(4){height: 170px;border-radius: 10px;grid-row: 3;}
+.item:nth-child(5){height: 170px;border-radius: 10px;grid-row: 2;}
+.item:nth-child(6){grid-column: 1/4;height: 100px;border-radius: 10px;background: rgb(254, 210, 129);}
+.item:nth-child(7){grid-column: 2/4;grid-row: 1;height: 30px;border-radius: 10px;background: rgb(238, 221, 198);}
+.item:nth-child(8){grid-column: 1/4;height: 100px;border-radius: 10px;background: rgb(244, 195, 103);}
+.footer{line-height: 180px; text-align: right;height: 100px;}
+img {width: 50%;}
+header{width: 1fr;height: 90px;}
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">이도엽</h1>
+    <div class="container">
+        <div class="item"><br><strong>나이와 생일</strong><br><br><br>
+            2006년 08월 11일 생입니다.
+        </div>
+        <div class="item">
+            <br><img src="C:\Users\goni0\Documents\programing\연습용\증명사진.jpg" alt="증명사진"><br><나의 사진>
+        </div>
+        <div class="item">
+            <br><strong>사는 곳</strong><br><br><br>
+            인재관 L105호에 살고 있어요.
+        </div>
+        <div class="item">
+            <br><strong>취미</strong><br><br>
+        저는 롤을 매우 좋아합니다. <br> (최고티어 : 골드2 , 주 챔프 : 카밀(탑))
+        </div>
+        <div class="item">
+            <br><strong>키</strong><br><br><br>
+        키 189CM. 유일한 자랑거리.<br>
+        </div>
+        <div class="item">
+            <h3>자기 소개</h3>
+            App팀의 9기 이도엽입니다, 앞으로 열심히 하겠습니다!
+        </div>
+        <div class="item">
+            <b style="font-size: 20px;">기본 정보</b>
+        </div>
+        <div class="item">
+            <h3>기술</h3>
+            아직 사용 가능한 기술은 없지만 이 칸이 모두 채워질 수 있도록 열심히 하겠습니다!
+        </div>
+    </div>
+    <div class="footer">
+        E-mail : goni0811@naver.com / 전화번호 : 010-9771-2166
+    </div>
+</body>
+</html>
+
+
